@@ -1,0 +1,39 @@
+html {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Commissioner', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    background-image: url('./images/image-hero-desktop.jpg');
+    height: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    background-image: url('./images/image-hero-mobile.jpg');
+    height: 20rem;
+    font-weight: bolder;
+  }
+}
+
+
+.navbar-dark .navbar-brand {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
